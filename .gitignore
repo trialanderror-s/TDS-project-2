@@ -1,10 +1,23 @@
+# Virtual environment
 venv/
-_pycache_/
-*.py[cod]
-*.class
+
+# Uploads directory
+uploads/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code settings
+.vscode/
+
+# Ignore environment files (optional)
 .env
-.pytest_cache/
-.coverage
-htmlcov/
-.DS_Store
+*.env
+
+# Ignore logs and temp files (optional)
+*.log
+*.tmp
 .vercel
